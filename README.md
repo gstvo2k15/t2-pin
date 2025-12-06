@@ -45,3 +45,21 @@ Your Portfolio needs the parallel interface.
 You will connect the PC to your Portfolio using a parallel "nul modem" cable.
 
 Then you will need to grow a long strand of hair and grow an attitude and you'll be ready to role play John Connor.
+
+### Windows Setup and Execution
+1️⃣ Create and activate a virtual environment
+
+```bash
+python -m venv t2pin
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\t2-pin\Scripts\Activate.ps1
+```
+
+2️⃣ Install dependencies
+`pip install XXX`
+
+3️⃣ Run the program
+`python PIN.py`
+
+4️⃣ Exit the environment when finished
+`deactivate`

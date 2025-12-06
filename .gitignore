@@ -1,0 +1,67 @@
+# 🚀 Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.dist-info/
+
+# 🚀 Virtual Environment (venv)
+test/
+openhand/
+wintel/
+venv/
+.env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Jupyter Notebooks
+.ipynb_checkpoints/
+
+# 🚀 Logs & Debugging
+logs/
+*.log
+*.out
+*.err
+debug.log
+
+# 🚀 OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🚀 Editor / IDE files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# 🚀 Pytest & Coverage
+.tox/
+.coverage
+*.cover
+htmlcov/
+nosetests.xml
+pytest_cache/
+
+# 🚀 Build files
+build/
+dist/
+*.spec
+MANIFEST
+
+# 🚀 Docker & CI/CD
+*.dockerignore
+docker-compose.override.yml
+
+# 🚀 Ansible
+*.retry
+*.vault
+
+# 🚀 Terraform (if needed)
+.terraform/
+*.tfstate
+*.tfstate.backup
