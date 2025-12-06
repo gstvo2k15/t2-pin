@@ -4,9 +4,9 @@
 import os, sys, time, random, platform
 
 # ---------- Tick tuning (matched to MP3 high peak) ----------
-BEEP_FREQ_HZ       = 1100   # bright click component from the MP3
+BEEP_FREQ_HZ       = 850   # bright click component from the MP3
 BEEP_MS            = 5      # short tick to keep scrolling fast
-CHAR_PERIOD_SEC    = 0.003  # overall pace per character (~3 ms)
+CHAR_PERIOD_SEC    = 0.0001  # overall pace per character (~3 ms)
 HEADER_WAIT_ANYKEY = True   # any key (not Enter)
 # ------------------------------------------------------------
 
@@ -39,9 +39,9 @@ def print_pin_header():
     clear_screen()
     print(
         "PPPPP  IIIIIII   N    N\n"
-        "P   PP    I      NN   N IDENTIFICATION\n"
+        "P   PP    I      NN   N     IDENTIFICATION\n"
         "P   PP    I      N N  N\n"
-        "PPPPP     I      N  N N   PROGRAM\n"
+        "PPPPP     I      N  N N        PROGRAM\n"
         "P         I      N   NN\n"
         "P      IIIIIII   N    N\n"
     )
